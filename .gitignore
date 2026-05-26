@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.mypy_cache/
+
+# Wygenerowana dokumentacja Doxygen (źródła: Doxyfile)
+docs/doxygen/
+
+# Logs
+*.log
+logs/
+
+# Konfiguracja lokalna / sekrety
+.env
+.env.*
+!.env.example
+
+# Preferencje użytkownika
+user_preferences.json
